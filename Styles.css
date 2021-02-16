@@ -1,0 +1,13 @@
+﻿html body {
+  background-color:#999999;
+  padding:1%;
+}
+
+body {
+	margin: 0.1%;
+}
+
+p{
+	font-family:"Times New Roman", Times, serif;
+	font-weight:normal;
+}
