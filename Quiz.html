@@ -3,6 +3,7 @@
   <head>
     <title>Quiz</title>
     <link href="Styles.css" rel="stylesheet" type="text/css">
+    <script src="js-quiz.js"></script>
   </head>
   <body>
     <main>
@@ -21,13 +22,13 @@
       </nav>
     </div>
   </header>
-  <form id="form"><fieldset><legend>Scelta multilpa</legend>
+  <form name="form"><fieldset><legend>Scelta multilpa</legend>
   <div>
-  Quali tra questi NON è un componente di un cuputer:<br>
-  <input type="radio" value="1" name="d1">MOBO<br>
-  <input type="radio" value="2" name="d1">CPU<br>
-  <input type="radio" value="3" name="d1">Mouse<br>
-  <input type="radio" value="4" name="d1">RAM<br>
+  Quali tra questi NON è un componente di un cumputer:<br>
+  <input type="radio" name="d1" value="1">MOBO<br>
+  <input type="radio" name="d1" value="2">CPU<br>
+  <input type="radio" name="d1" value="3">Mouse<br>
+  <input type="radio" name="d1" value="4">RAM<br>
   </div>
   <br>
   <div>
@@ -45,11 +46,11 @@
   <input type="radio" value="3" name="d3">1600 MHz e i 3200 MHz<br>
   <input type="radio" value="4" name="d3">400 MHz ed i 1066 MHz<br>
   </div>
-
+  <br>
+ <input type="reset" value="Reset"> &nbsp; <input type="button" value="Verifica" onclick="verifica()">
   </fieldset>
   </form>
-  
-     <footer>
+   <footer>
       <p><br>Contatti<br>
     - pasquali21707@iistorriani.it<br>
     - guaiatelli21724@iistorriani.it<br>
