@@ -1,4 +1,4 @@
-﻿html body {
+﻿html,body{
   background-color:#999999;
   padding:1%;
 }
@@ -84,4 +84,15 @@ div#image{
 
 h1{
 	text-align:center;
+}
+
+footer {
+	background:#0099FF;
+    clear: both;
+    height: auto;
+    padding-bottom:1%;
+}
+footer p{
+	text-align:center;
+	font-weight:bolder;
 }
