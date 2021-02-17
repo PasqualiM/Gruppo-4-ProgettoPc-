@@ -27,4 +27,6 @@
 		
 	var sbagliate=6-giuste;
 	alert("Risposte corrette: "+giuste+"\n Risposte sbagliate: "+sbagliate);
+	
+	location.reload();
 	}
